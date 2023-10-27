@@ -88,6 +88,10 @@
   }
 
   /* CARDS */
+  .products {
+    padding-bottom: 100px;
+  }
+
   .cards {
     display: flex;
     flex-direction: column;
@@ -149,6 +153,12 @@
   }
 
   /* CARDS */
+
+  .cards:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 1px 3px 8px 2px;
+  }
 
   .img__hamburguesa {
     width: 330px;
