@@ -60,6 +60,7 @@
   .hero__description {
     max-width: 12rem;
     text-align: center;
+    font-size: 0.9rem;
   }
 
   .products__img {
@@ -103,5 +104,66 @@
   .cards p {
     font-size: 0.8rem;
     font-weight: 700;
+  }
+
+  /* FOOTER */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: black;
+  }
+
+  .footer p {
+    color: white;
+    font-size: 0.8rem;
+  }
+}
+
+/* 420PX */
+@media (min-width: 420px) {
+  /* HERO */
+  .hero__title {
+    font-size: 1.7rem;
+  }
+
+  .hero__description {
+    font-size: 1.1rem;
+  }
+
+  .products__img {
+    width: 320px;
+    height: 400px;
+  }
+
+  /* PRODUCTOS */
+
+  .products__title {
+    font-size: 1.7rem;
+  }
+
+  .title__hamb-products {
+    font-size: 1.4rem;
+  }
+
+  /* CARDS */
+
+  .img__hamburguesa {
+    width: 330px;
+    height: 160px;
+  }
+
+  .cards h4 {
+    font-size: 1.3rem;
+  }
+
+  .cards p {
+    font-size: 1rem;
+  }
+
+  /* FOOTER */
+  .footer p {
+    font-size: 0.8rem;
   }
 }
