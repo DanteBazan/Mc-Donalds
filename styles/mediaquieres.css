@@ -130,6 +130,7 @@
 
   .hero__description {
     font-size: 1.1rem;
+    max-width: 300px;
   }
 
   .products__img {
