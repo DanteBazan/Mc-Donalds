@@ -5,11 +5,12 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
   }
 
   body {
-    background: black;
+    background: white;
   }
   /* HEADER */
   .header {
@@ -64,5 +65,43 @@
   .products__img {
     width: 240px;
     height: 300px;
+  }
+
+  /* PRODUCTS */
+  .products {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .title__hamb-products {
+    font-size: 1.2rem;
+  }
+
+  .img__hamburguesa {
+    width: 180px;
+    height: 90px;
+  }
+
+  /* CARDS */
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1px solid black;
+  }
+
+  .cards h4 {
+    font-size: 1rem;
+  }
+
+  .cards p {
+    font-size: 0.8rem;
+    font-weight: 700;
   }
 }
