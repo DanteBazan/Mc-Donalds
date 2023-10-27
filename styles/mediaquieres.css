@@ -49,6 +49,10 @@
     gap: 0.8rem;
   }
 
+  .hero__title {
+    font-size: 2rem;
+  }
+
   .container__hero-descrp {
     display: flex;
     flex-direction: column;
@@ -58,14 +62,14 @@
   }
 
   .hero__description {
-    max-width: 12rem;
+    max-width: 15rem;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 01rem;
   }
 
   .products__img {
-    width: 240px;
-    height: 300px;
+    width: 260px;
+    height: 320px;
   }
 
   /* PRODUCTS */
@@ -78,18 +82,31 @@
     gap: 1.5rem;
   }
 
+  .products__title {
+    font-size: 1.5rem;
+  }
+
   .title__hamb-products {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .img__hamburguesa {
-    width: 180px;
-    height: 90px;
+    width: 240px;
+    height: 130px;
   }
 
   /* CARDS */
+
   .products {
-    padding-bottom: 100px;
+    padding: 1rem 0rem;
+  }
+
+  .cards__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
   }
 
   .cards {
@@ -99,15 +116,22 @@
     align-items: center;
     gap: 0.4rem;
     border: 1px solid black;
+    padding-bottom: 1rem;
   }
 
   .cards h4 {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .cards p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 700;
+  }
+
+  /* PIZZAS */
+
+  .title__pizza {
+    font-size: 1.4rem;
   }
 
   /* FOOTER */
