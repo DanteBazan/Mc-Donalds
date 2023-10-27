@@ -1,0 +1,68 @@
+@media (min-width: 300px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  body {
+    background: black;
+  }
+  /* HEADER */
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    background: yellow;
+    position: fixed;
+    width: 100%;
+  }
+
+  .mc__logo {
+    width: 4.5rem;
+    height: 3rem;
+    border-radius: 100%;
+  }
+
+  /* MAIN */
+  main {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+
+  /* HERO  */
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .container__hero-descrp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+  }
+
+  .hero__description {
+    max-width: 12rem;
+    text-align: center;
+  }
+
+  .products__img {
+    width: 240px;
+    height: 300px;
+  }
+}
