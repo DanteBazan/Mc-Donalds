@@ -37,6 +37,7 @@
     justify-content: center;
     align-items: center;
     font-size: 0.8rem;
+    gap: 1rem;
   }
 
   /* HERO  */
@@ -46,7 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.8rem;
+    gap: 2rem;
   }
 
   .hero__title {
@@ -58,13 +59,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.7rem;
+    gap: 1rem;
   }
 
   .hero__description {
     max-width: 15rem;
     text-align: center;
-    font-size: 01rem;
+    font-size: 1rem;
   }
 
   .products__img {
@@ -88,6 +89,7 @@
 
   .title__hamb-products {
     font-size: 1.4rem;
+    padding: 1rem 0rem;
   }
 
   .img__hamburguesa {
@@ -98,7 +100,7 @@
   /* CARDS */
 
   .products {
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
   }
 
   .cards__container {
@@ -116,9 +118,9 @@
     align-items: center;
     gap: 0.4rem;
     border: 1px solid black;
-    padding: 0.1rem;
-    border: 2px solid black;
-    box-shadow: 1px 1px 8px -1px;
+    /* padding: 0.1rem; */
+    padding-bottom: 1rem;
+    border: 1px solid black;
   }
 
   .cards h4 {
@@ -134,6 +136,41 @@
 
   .title__pizza {
     font-size: 1.4rem;
+    padding: 1rem 0rem;
+  }
+
+  /* LOMOS */
+  .title__lomo {
+    font-size: 1.4rem;
+    padding: 1rem 0rem;
+  }
+
+  /* CONTACTANOS */
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .telefono {
+    font-size: 1rem;
+  }
+
+  .contact__description {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 260px;
+  }
+
+  .title__contact {
+    font-size: 1.4rem;
+  }
+
+  .delivery {
+    width: 100px;
   }
 
   /* FOOTER */
@@ -180,9 +217,17 @@
 
   /* CARDS */
 
+  .cards {
+    width: 430px;
+    height: 300px;
+    /* padding: 1rem; */
+    padding-bottom: 2rem;
+    gap: 0.9rem;
+  }
+
   .img__hamburguesa {
-    width: 460px;
-    height: 240px;
+    width: 428px;
+    height: 193px;
   }
 
   .cards h4 {
@@ -196,6 +241,35 @@
   /* PIZZAS */
   .title__pizza {
     font-size: 2rem;
+  }
+
+  /* LOMOS */
+  .title__lomo {
+    font-size: 2rem;
+  }
+
+  /* CONTACTANOS */
+
+  .contact {
+    gap: 2rem;
+  }
+
+  .title__contact {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+  }
+
+  .telefono {
+    font-size: 1.6rem;
+  }
+
+  .contact__description {
+    font-size: 1.6rem;
+    max-width: 400px;
+  }
+
+  .delivery {
+    width: 370px;
   }
 
   /* FOOTER */
